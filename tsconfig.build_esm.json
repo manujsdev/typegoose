@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "test/**/*.ts"
+  ],
+  "compilerOptions": {
+    "outDir": "lib/esm",
+    "module": "ES6"
+  }
+}
